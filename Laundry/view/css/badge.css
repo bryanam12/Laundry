@@ -1,0 +1,27 @@
+#statusBadge {
+    padding: 5px 10px; /* Padding pada bagian dalam badge */
+    border-radius: 10px; /* Membuat sudut melengkung pada badge */
+    font-size: 14px; /* Ukuran font pada badge */
+    font-weight: bold; /* Ketebalan font pada badge */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+    width: fit-content; /* Menyesuaikan lebar badge dengan isi teks */
+  }
+  
+  /* Tampilan untuk status "Siap Diambil" */
+  #statusBadge.badge-success {
+    background-color: #28a745; /* Warna latar belakang hijau */
+    color: #fff; /* Warna teks putih */
+  }
+  
+  /* Tampilan untuk status "Proses" */
+  #statusBadge.badge-primary {
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: #fff; /* Warna teks putih */
+  }
+  
+  /* Tampilan untuk status "Antrian" */
+  #statusBadge.badge-danger {
+    background-color: #dc3545; /* Warna latar belakang merah */
+    color: #fff; /* Warna teks putih */
+  }
+  
